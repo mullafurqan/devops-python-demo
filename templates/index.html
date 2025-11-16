@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>InspireMe</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-color: {{ color }};
+
+            color: white;
+
+            height: 100vh;
+
+            display: flex;
+
+            flex-direction: column;
+
+            align-items: center;
+
+            justify-content: center;
+
+            text-align: center;
+
+            padding: 20px;
+
+        }
+
+
+
+        h1 { font-size: 50px; margin-bottom: 20px; }
+
+        p { font-size: 22px; margin-top: 10px; }
+
+
+
+        .container {
+
+            background: rgba(0,0,0,0.3);
+
+            padding: 30px;
+
+            border-radius: 15px;
+
+        }
+
+
+
+        .btn {
+
+            margin-top: 30px;
+
+            padding: 10px 20px;
+
+            background: white;
+
+            color: black;
+
+            font-size: 18px;
+
+            border-radius: 10px;
+
+            text-decoration: none;
+
+        }
+
+
+
+        .btn:hover { background: #eee; }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>InspireMe</h1>
+
+        <p><strong>Quote:</strong> {{ quote }}</p>
+
+        <p><strong>Affirmation:</strong> {{ affirmation }}</p>
+
+
+
+        <a class="btn" href="/">Refresh</a>
+
+    </div>
+
+</body>
+
+</html>
