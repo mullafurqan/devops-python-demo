@@ -91,6 +91,3 @@ GitHub: https://github.com/mullafurqan
 
 ---
 
-## 📌 Notes
-
-This project is created for learning and demonstration purposes as part of DevOps practice and portfolio development.
